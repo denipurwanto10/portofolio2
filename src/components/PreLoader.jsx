@@ -219,8 +219,13 @@ const PreLoader = () => {
             fadeScreen ? "opacity-0 scale-110" : "opacity-100 scale-100"
           }`}
         >
-          <Aurora colorStops={["#60A5FA", "#3B82F6", "#2563EB"]} blend={0.5} amplitude={1.0} speed={0.5} />
-          
+         <Aurora 
+  colorStops={["#1E3A8A", "#1E40AF", "#1E3A8A"]} 
+  blend={0.5} 
+  amplitude={1.0} 
+  speed={0.5} 
+/>
+
           {/* Matrix-like background effect */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             {[...Array(20)].map((_, i) => (
